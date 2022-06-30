@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 0, 16);
+}
+#elemetoAzul {
+    position: fixed;
+    top: -65%;
+    left: -2%;
+    background-color: rgb(25, 171, 253);
+    border-radius: 50%;
+    width: 125vh;
+    height:125vh;
+    ;
+}
+#elemetoVerde{
+    position: fixed;
+    top: -65%;
+    left: -10%;
+    background-color: rgb(79, 252, 76);
+    border-radius: 50%;
+    width: 125vh;
+    height:125vh;
+    ;
+}
+#logo{
+    height: 20vh;
+    width: 20vh;
+    backdrop-filter: blur(5px);
+    background-color: rgb(29, 26, 37);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 8vh;
+}
+h1{
+    font-size: x-large;
+}
+h2{
+    font-size: large;
+}
+.card{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 7vh;
+    padding: 5vh;
+    width: 50vh;
+}
+#exampleInputEmail1{
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-color: rgb(29, 26, 37);
+    border: 5px;
+}
+#exampleInputPassword1{
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-color: rgb(29, 26, 37);
+    border: 5px;
+}
+form-control{
+    background-color: rgba(255, 255, 255, .15);
+}
+.form-label{
+    font-weight: 500;
+    color: white;
+}
+mb-3{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    background-color: rgba(255, 255, 255, .15);
+
+}
+.loginComponents{
+    text-align: center;
+}
+a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-weight: 200;
+    color: white
+}
+.btn{
+    width: 30vh;
+    font-weight: 500;
+    border-radius: 15vh;
+    color: white;
+    background-color: rgb(25, 171, 253);
+}
+.rodape{
+    padding-top: 5vh;
+    align-items: flex-end;
+}
+h3{
+    font-size: large;
+    font-weight: 200;
+    color: white;
+}
